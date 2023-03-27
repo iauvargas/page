@@ -1,0 +1,30 @@
+uuid: d9c7afb3-5464-4a7d-898c-2cc650d073f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.melissa.body
+    - node.type.melissa
+  module:
+    - text
+    - user
+id: node.melissa.teaser
+targetEntityType: node
+bundle: melissa
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

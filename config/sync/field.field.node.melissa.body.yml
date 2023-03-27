@@ -1,0 +1,23 @@
+uuid: 72b78dd5-affe-45a9-88d9-10677cc5f51c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.melissa
+  module:
+    - text
+id: node.melissa.body
+field_name: body
+entity_type: node
+bundle: melissa
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,11 @@
+name: page_master
+type: module
+description: "Field formatter/widgets (build custom one)"
+package: custom
+core_version_requirement: ^9 || ^10
+
+version: "1.0"
+
+dependencies:
+  - drupal:file
+  - drupal:options
